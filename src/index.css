@@ -20,7 +20,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #cfaae7;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -106,7 +106,18 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  display: flex;
+  flex-direction: row;
+  background: var(--dark)
+  
+}
+
+header Nav {
+  color: #8c54ff;
+  justify-content: space-between;
+  
+  list-style: none;
+
 }
 
 header a {
@@ -144,6 +155,25 @@ span[role="img"] {
 
 form {
   width: 40%;
+}
+
+.bio {
+  /* border: 3px solid black;
+  border-radius: 15px;
+  margin: 5rem;
+  padding: 4rem 3rem; */
+  flex-direction: row;
+  display: flex;
+  flex: 20 12%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bio p {
+  font-size: 20px;
+  padding: 0 0 35px 15px;
+  float: right;
+  color: bisque;
 }
 
 input {

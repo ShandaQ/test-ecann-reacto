@@ -1,25 +1,32 @@
-import React from "react";
+import React, { useState} from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
+// import Contact from './components/Contact';
 
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected,
-  } = props;
+ 
 
+function Nav() {
+
+  const [categories] = useState([
+    {
+      name: "About",
+    },
+    { name: "Projects", description: "Projects I've developed" },
+    { name: "Contact"},
+  
+  ]);
+  
+  const [contactSelected, setContactSelected] = useState(false);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
   
   return (
     <header className="flex-row px-1">
       <nav>
         <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
+          {/* <li className="mx-2">
+          <a data-testid="about" onClick={() => setContactSelected(false)}>
+              Erika Cannon
             </a>
-          </li>
+          </li> */}
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
