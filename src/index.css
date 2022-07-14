@@ -115,9 +115,12 @@ header {
 header Nav {
   color: #8c54ff;
   justify-content: space-between;
-  
   list-style: none;
+}
 
+.projectScreenshot{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header a {

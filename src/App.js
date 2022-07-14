@@ -48,6 +48,7 @@ function App(props) {
       </Header>
           <main>
             <About></About>
+            <Project></Project>
       </main>
     </section>
     
