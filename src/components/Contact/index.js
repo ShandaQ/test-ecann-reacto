@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, Container, TextField, SvgIcon, Tooltip } from '@mui/material';
 import './style.css';
 import EmailIcon from '@mui/icons-material/Email';
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Contact() {
   const [name, setName, email, setEmail, message, setMessage] = useState('');
@@ -22,8 +22,8 @@ function Contact() {
           <Tooltip title='Email directly'>
             <SvgIcon alt='email-icon' fontSize='large' component={EmailIcon} />
           </Tooltip>
-        </a>{' '}
-        {/*  */}
+        </a>
+        
         <a
           href='https://discordapp.com/users/746823093468790785'
           rel='noreferrer'
@@ -33,7 +33,7 @@ function Contact() {
             <SvgIcon
               alt='discord-icon'
               fontSize='large'
-              component={SportsEsportsIcon}
+              component={TwitterIcon}
             />
           </Tooltip>
         </a>

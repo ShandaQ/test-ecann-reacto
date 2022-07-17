@@ -1,0 +1,53 @@
+body {
+    transition: 0.5s ease;
+  }
+  
+  #form-input,
+  #textbox {
+    color: #171a26;
+    font-size: large;
+    background-color: rgb(247, 247, 255, 0.3);
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  #textbox {
+    height: 100px;
+  }
+  
+  div {
+    margin: 10px 0;
+  }
+  
+  #submit-button {
+    width: 15%;
+    font-size: large;
+    background-color: thistle;
+    border-radius: 15px;
+    color: var(--dark);
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  #submit-button:hover {
+    background-color: #f7f7ff;
+    letter-spacing: 0.2rem;
+    transition: 0.5s ease;
+  }
+  
+  #form-input:focus,
+  #textbox:focus {
+    background-color: thistle;
+  }
+  
+  @media (max-width: 500px) {
+    #contact-input,
+    #textbox {
+      width: 50%;
+    }
+  
+    #submit-button {
+      width: 30%;
+      height: 40px;
+    }
+  }
