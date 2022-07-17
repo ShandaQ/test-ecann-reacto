@@ -9,7 +9,11 @@ function Project() {
   return (
     <section className="projectScreenshot"> 
     <h1>Projects</h1>
-        
+    <div>
+        <a href="https://secret-headland-13012.herokuapp.com/" target="blank">
+
+        </a>
+        </div>
       <img src={budget_tracker} className="my-2" style={{ height: "30%", width: "30%" }} alt="cover" />
       <img src={group_project_2} className="my-2" style={{ height: "30%", width: "30%" }} alt="cover" />
       <img src={run_buddy} className="my-2" style={{ height: "30%", width: "30%" }} alt="cover" />
