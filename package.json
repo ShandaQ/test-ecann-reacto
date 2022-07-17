@@ -1,5 +1,6 @@
 {
   "name": "ecann-reacto",
+  "homepage": "http://cannonel.github.io/ecann-reacto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
