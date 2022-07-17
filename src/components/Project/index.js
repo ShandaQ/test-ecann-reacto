@@ -11,7 +11,7 @@ function Project() {
     <h1>Projects</h1>
     <div>
         <a href="https://secret-headland-13012.herokuapp.com/" target="blank">
-
+        <img src={budget_tracker} className="my-2" style={{ height: "30%", width: "30%" }} alt="cover" />
         </a>
         </div>
       <img src={budget_tracker} className="my-2" style={{ height: "30%", width: "30%" }} alt="cover" />
