@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Container } from '@mui/material';
-import resume from '../../assets/';
+import resume from '../../assets/resume.pdf';
 
 function Resume() {
   return (

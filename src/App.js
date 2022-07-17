@@ -4,22 +4,28 @@ import { Routes, Route } from "react-router-dom";
 // components
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Home from "./components/Home";
-import SideNav from "./components/SideNav";
-import Work from "./components/Work";
+import Nav from "./components/Nav";
+import Resume from "./components/Resume";
+import Project from "./components/Project";
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
+
 function App() {
   return (
     <div className="App">
-      {" "}
-      <SideNav />{" "}
+    
+      <Nav />
+      {/* <Header></Header> */}
       <Routes>
-        {" "}
-        <Route path="/" element={<Home />} />{" "}
-        <Route path="/portfolio" element={<Home />} />{" "}
-        <Route path="/about" element={<About />} />{" "}
-        <Route path="/work" element={<Work />} />{" "}
-        <Route path="/contact" element={<Contact />} />{" "}
-      </Routes>{" "}
+        
+        <Route path="/" element={<About />} />
+        <Route path="/portfolio" element={<Resume />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
+      {/* <Footer></Footer> */}
     </div>
   );
 }
