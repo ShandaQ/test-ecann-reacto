@@ -6,7 +6,7 @@ import { Container, SvgIcon, Tooltip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-function SideNav() {
+function Nav() {
   return (
     <div className='side-nav'>
      
@@ -59,4 +59,4 @@ function SideNav() {
   );
 }
 
-export default SideNav;
+export default Nav;

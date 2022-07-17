@@ -25,13 +25,13 @@ function Contact() {
         </a>
         
         <a
-          href='https://discordapp.com/users/746823093468790785'
+          href='https://twitter.com/ecannonz/'
           rel='noreferrer'
           target='_blank'
         >
-          <Tooltip title='Add me on Discord'>
+          <Tooltip title='Follow me on Twitter'>
             <SvgIcon
-              alt='discord-icon'
+              alt='Twitter-icon'
               fontSize='large'
               component={TwitterIcon}
             />

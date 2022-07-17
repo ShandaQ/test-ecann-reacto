@@ -4,18 +4,17 @@ import { Routes, Route } from "react-router-dom";
 // components
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Nav from "./components/Nav";
 import Resume from "./components/Resume";
 import Project from "./components/Project";
-// import Header from "./components/Header";
-// import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-    
-      <Nav />
-      {/* <Header></Header> */}
+    <Header></Header>
+      
+      
       <Routes>
         
         <Route path="/" element={<About />} />
@@ -25,7 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }
