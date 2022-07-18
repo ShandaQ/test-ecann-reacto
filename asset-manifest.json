@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ecann-reacto/static/css/main.899b062f.css",
-    "main.js": "/ecann-reacto/static/js/main.3977cee9.js",
-    "static/js/787.79433569.chunk.js": "/ecann-reacto/static/js/787.79433569.chunk.js",
-    "static/media/budget_tracker.gif": "/ecann-reacto/static/media/budget_tracker.be421b42524526bed0c8.gif",
-    "static/media/run_buddy.jpg": "/ecann-reacto/static/media/run_buddy.bb89d501843a7023bba9.jpg",
-    "static/media/nightin.jpg": "/ecann-reacto/static/media/nightin.76634b1ec211e3eb8c3c.jpg",
-    "static/media/headshot.jpg": "/ecann-reacto/static/media/headshot.dfe1d93b01ada6fff661.jpg",
-    "static/media/codeQuiz.jpg": "/ecann-reacto/static/media/codeQuiz.c5faa06061e411380e46.jpg",
-    "static/media/weatherdboard.jpg": "/ecann-reacto/static/media/weatherdboard.acb71fd1d2b25205bd4d.jpg",
-    "static/media/group_project_2.png": "/ecann-reacto/static/media/group_project_2.a89f4a719adf3ef049ae.png",
-    "static/media/resume.pdf": "/ecann-reacto/static/media/resume.da53f704cc6055b42c2c.pdf",
-    "index.html": "/ecann-reacto/index.html",
-    "main.899b062f.css.map": "/ecann-reacto/static/css/main.899b062f.css.map",
-    "main.3977cee9.js.map": "/ecann-reacto/static/js/main.3977cee9.js.map",
-    "787.79433569.chunk.js.map": "/ecann-reacto/static/js/787.79433569.chunk.js.map"
+    "main.css": "/test-ecann-reacto/static/css/main.899b062f.css",
+    "main.js": "/test-ecann-reacto/static/js/main.04dbfdba.js",
+    "static/js/787.79433569.chunk.js": "/test-ecann-reacto/static/js/787.79433569.chunk.js",
+    "static/media/budget_tracker.gif": "/test-ecann-reacto/static/media/budget_tracker.be421b42524526bed0c8.gif",
+    "static/media/run_buddy.jpg": "/test-ecann-reacto/static/media/run_buddy.bb89d501843a7023bba9.jpg",
+    "static/media/nightin.jpg": "/test-ecann-reacto/static/media/nightin.76634b1ec211e3eb8c3c.jpg",
+    "static/media/headshot.jpg": "/test-ecann-reacto/static/media/headshot.dfe1d93b01ada6fff661.jpg",
+    "static/media/codeQuiz.jpg": "/test-ecann-reacto/static/media/codeQuiz.c5faa06061e411380e46.jpg",
+    "static/media/weatherdboard.jpg": "/test-ecann-reacto/static/media/weatherdboard.acb71fd1d2b25205bd4d.jpg",
+    "static/media/group_project_2.png": "/test-ecann-reacto/static/media/group_project_2.a89f4a719adf3ef049ae.png",
+    "static/media/resume.pdf": "/test-ecann-reacto/static/media/resume.da53f704cc6055b42c2c.pdf",
+    "index.html": "/test-ecann-reacto/index.html",
+    "main.899b062f.css.map": "/test-ecann-reacto/static/css/main.899b062f.css.map",
+    "main.04dbfdba.js.map": "/test-ecann-reacto/static/js/main.04dbfdba.js.map",
+    "787.79433569.chunk.js.map": "/test-ecann-reacto/static/js/787.79433569.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.899b062f.css",
-    "static/js/main.3977cee9.js"
+    "static/js/main.04dbfdba.js"
   ]
 }
